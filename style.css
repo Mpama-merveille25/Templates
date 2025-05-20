@@ -1,0 +1,308 @@
+.@import url ( 'https://font. Googleapis . com/css2? family=EB+Garamond: ital,wght@0,400..800;1,400..800&family=Roboto: ital, wght@0,100..900;1,100..900&family=special+Gothic&family=special+Gothic+Expanded+one&display=swap' rel="stylesheet")
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serf;
+    box-sizing: border-box;
+}
+body {
+     margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+ header{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+header{
+    padding: 25px;
+}
+section{
+    padding: 80px 90px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding: 15px 30px;
+}
+.content:hover h1{
+    color: blue;
+}
+.logo{
+    font-weight: blod;
+    width: 40%;
+}
+.logo:hover{
+    color: #fff;
+    background-color: black;
+}
+.logo-div{
+    width: 30%;
+    padding: 15px 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+    float: left;
+}
+.menu li{
+    width: 40px;
+    margin-left: 50px;
+    border-radius: 20px;
+    list-style: none;
+    background-color: #fff;
+}
+.menu li a{
+    text-decoration: none;
+    transition: 0.4s ease-int-out;
+   color: black;
+   font-family: arial;
+   font-weight: blod;
+   
+}
+.menu li a:hover{
+    color: #fff ;
+    border: 8px;
+    background-color: #c5cedb;
+}
+.content{ 
+    display: flex;
+    flex-direction: column;
+    align-items: blod;
+    background-image: url('image.jpg');
+    font-family: "Montserrat", sans-serif; 
+    background-size: cover;
+    width: 137%;
+    height: 16vh;
+    padding: 25px 50px;
+    font-size: 35px;
+    margin-top: -50px;
+}
+.content h1{
+    display: inline-block;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: white;
+}
+.nav{
+ display: inline-flex;
+}
+.frm{
+    width: 100%;
+   background-image: url(image.jpg);
+   height: 5vh;
+}
+.frm img{
+    height: 4.4vh;
+}
+.section-div{
+    display: flex;
+    justify-content: space-betwee;
+    width: 130%;
+    padding: 30px 80px;
+}
+.lo-hero{
+    background-color: black;
+    width: 120%;
+    margin-top: 100px;
+}
+.hero img{
+    width: 100%;
+}
+
+.go-hero ul{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px 80px;
+    hheight: 3vh;
+}
+.go-hero li{
+    color: #fff;
+    padding: 5px 40px;
+    font-size: 20px;
+    display: flex;
+}
+.go-hero{
+    margin-top: 48px;
+}
+.go-hero img{
+    height: 3vh;
+    margin-top: -13px;
+}
+.go-hero h1{
+    color: orange;
+    font-size: 40px;
+    padding: 5px 40px;
+}
+.form{
+    align-items: center;
+    border-radius: none;
+    background-color: #fff;
+    border: 8px solid #fff; 
+    margin-left: 60px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+.go-hero p{
+    color: #fff;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+  .form input{
+       width: 100%;
+       padding: 5px;
+       height: 5.1vh;
+      float: left;
+      font-size: 25px;
+      border-right: none;
+      background-color: #fff;
+   }
+  .form-div{
+      font-size: 30px;
+      text-align: center;
+      left: 30px;
+      background-color: #fff;
+      list-height: 40px;
+  }
+.form-div p{
+    margin-top: -15px;
+    font-size: 20px;
+    padding: 0px;
+}
+.form-div img{
+    height: 3vh;
+    margin-bottom: -15px;
+}
+.form-div p:hover a{
+    background-color: blue;
+    opacity: 0.5;
+    color: #fff;
+}
+.form-div p1{
+    display: none;
+}
+.form-div p:hover p1{
+    display: block;
+    justify-content: center;
+}
+.class{
+    display: flex;
+    justify-content: space-between; 
+    font-wrap: wrap;
+    margin-top: 40px;
+}
+.class a{
+    display: flex;
+    padding: 4px 2px;
+    text-decoration: none;
+    color: #c5cedb;
+    border: 1px solid black;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.class a:hover{
+    background-color: #03f;
+    color: #fff;
+}
+@media(max-width:768px){
+   .logo-div{
+       flex-direction: column;
+       text-align: center;
+   }
+  .ul{
+      flex-direction: column;
+  }
+ .ul li{
+     margin: 15px 0;
+     margin-top: -30px;
+ }
+.content{
+    text-align: center;
+    height: 45vh;
+    width: 81%;
+}
+.form-div img{
+    width: 70%;
+}
+.section-div{
+    width: 70%;
+    justify-content: space-between;
+    padding: 30px 60px;
+    margin-top: 30px;
+}
+.form{
+    align-items: center;
+}
+.form label img{
+    width: 50%;
+    height: 25vh;
+    margin-top: -5px;
+    padding: 10px 20px;
+}
+.form-div{
+     text-align: center;
+    padding: 5px 30px;
+    margin-top: 30px;
+}
+.form-div h1{
+    font-size: 10px;
+    padding: 15px 30px;
+    margin-top: -50px;
+}
+.form-div p{
+    font-size: 5px;
+    padding: 15px;
+}
+.go-hero h1{
+    font-size:10px;
+}
+.go-hero ul{
+    flex-direction: column;
+}
+.go-hero li{
+    font-size: 6px;
+    margin-top: -10px;
+    width: 45%;
+}
+.go-hero img{
+    height: 1vh;
+    margin-top: 5px;
+}
+.go-hero p{
+    font-size: 5px;
+}
+.form{
+        flex-direction: column;
+        align-items: center;   
+        margin-top: -80px;
+       }
+      .lo-hero{
+          width: 100%;
+          margin-bottom: 23px;
+          margin-top: 1px;
+      }
+     .form-div h1{
+       margin-top: -80px;
+     }
+    .form-div p{
+       padding: 5px 25px;
+       
+    }
+    .form-div img{
+        height: 2vh;
+        margin-bottom: -20px;
+        padding: 10px 25px;
+        margin-left: -50px;
+    }
+}
+
+   
+  
